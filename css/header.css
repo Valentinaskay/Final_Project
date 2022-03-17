@@ -1,0 +1,146 @@
+/*header*/
+
+.container-first{
+    background: linear-gradient(0deg, rgba(2, 57, 87, 0.5), rgba(2, 57, 87, 0.5)),
+    url(../images/backgrond-image.jpeg) no-repeat 0 54% / cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-first header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.container-first header img{
+    margin-left: 82px;
+}
+
+.container-first header nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    width: 718px;
+}
+
+.container-first header nav ul li a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+.container-first header nav ul li a:hover{
+    text-shadow: 0px 5px 17px #023957; 
+    color: #11B6EA;
+}
+
+.container-first header nav ul li{
+    transition: 0.7s;
+}
+
+.container-first header nav ul li:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.container-first header nav ul li .about,
+.container-first header nav ul li .contact,
+.container-first header nav ul li .gallery{
+    text-shadow: 0px 5px 17px #023957; 
+    color: #11B6EA;
+}
+
+.container-first .first-content{
+    margin-top: 100px;
+    padding-bottom: 105px; 
+    position: relative; 
+}
+
+.container-first .background{
+    position: absolute;
+    top: 97px;
+    left: 308px;
+    width: 782px;
+    height: 342px;
+    background: rgba(2, 43, 87, 0.4);
+    filter: blur(200px);
+}
+
+.container-first .first-content h1{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;  
+    color: #FFFFFF;  
+    width: 740px;  
+    margin: 0 auto;
+}
+
+.container-first .first-content .contact-header{
+    width: 1022px;
+}
+
+.container-first .first-content .gallery-header{
+    width: 688px;
+    height: 156px;
+}
+
+
+
+@media screen and (max-width: 1400px){
+    .center{
+        width: 95%;
+    }
+    .container-first .background{
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container-first header nav{
+        display: none;
+    } 
+}
+
+@media screen and (max-width: 1024px){
+    .container-first .first-content h1,
+    .container-first .first-content .contact-header,
+    .container-first .first-content .gallery-header{
+        font-size: 40px;
+        line-height: 130%; 
+        width: 70%;      
+    }
+    .container-first .background{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container-first{
+        background: linear-gradient(0deg, rgba(2, 57, 87, 0.5), rgba(2, 57, 87, 0.5)), 
+        url(../images/backgrond-image.jpeg) no-repeat center / cover;
+    }
+    .container-first .first-content{
+        margin-left: 2.5%;
+    }
+    .container-first header{
+        padding-top: 20px;
+    }
+    .container-first header img{
+        margin-left: 20%;
+        width: 50%;
+        height: auto;
+    } 
+    .container-first .first-content h1,
+    .container-first .first-content .contact-header,
+    .container-first .first-content .gallery-header{
+        font-size: 30px;    
+    }
+}

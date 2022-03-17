@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,600;1,700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <link rel="stylesheet" href="scss/header.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/footer.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <section class="container-first">       
+            <header>
+                <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html" class="about">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="story.html">Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News</a></li>
+                        <li class="close" id="close-btn">x</li>
+                    </ul>
+                    <div class="burger">
+                        <img src="images/burger.svg" alt="burger">
+                    </div>
+                </nav>
+            </header>
+
+            <div class="background"></div>
+            <div class="first-content animate__animated wow animate__fadeInLeft">              
+                <h1 >About our story - We are the best team</h1>
+            </div>        
+        </section>
+
+        <section class="container-story center">
+            <div class="left-image animate__animated wow animate__fadeInLeft">
+                <img src="images/about/cont1-img1.jpeg" alt="image">
+                <img src="images/about/cont1-img2.jpeg" alt="image">
+            </div>
+            <div class="right-descr animate__animated wow animate__fadeInRight">
+                <h2>Here were the story begins</h2>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+        </section>
+
+        <section class="container-description">
+            <div class="center">
+                <div class="left-content animate__animated wow animate__fadeInLeft">
+                    <h2>We love to make perfect <span> home</span></h2>
+                    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+                <div class="right-content animate__animated wow animate__fadeInRight">
+                    <img src="images/company3.jpeg" alt="image">
+                </div>
+            </div>
+        </section>
+
+        <footer class="animate__animated wow animate__fadeInUp">
+            <div class="container-footer">
+                <div class="center">
+                    <div class="logo">
+                        <a href="#"><img src="images/logo.svg" alt="logo"></a>
+                        <p>Lizenzo street number 12 <br> Jakarta, Indonesia</p>
+                        <a href="https://goo.gl/maps/ZTx4hxHmQcp2dtAs5" target="_blank" class="button">Get directions</a>
+                    </div>
+                    <div class="footer-list">
+                        <div>
+                            <p>Menu</p>
+                            <ul>
+                                <li><a href="index.html" >Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="services.html">Service</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Contact</p>
+                            <ul>
+                                <li><a href="mailto:DB@gmail.com" target="_blank">E-mail</a></li>
+                                <li><a href="tel:+784938382929">Mobile</a></li>
+                                <li><a href="https://wa.me/000000000" target="_blank">Whatsapp</a></li>
+                                <li><a href="#">Fax</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Career</p>
+                            <ul>
+                                <li><a href="#">Job</a></li>
+                                <li><a href="#">Part-time</a></li>
+                                <li><a href="#">Internship</a></li>
+                                <li><a href="services.html">Service</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Business</p>
+                            <ul>
+                                <li><a href="#">Affiliate</a></li>
+                                <li><a href="#">Collaboration</a></li>
+                                <li><a href="#">Investment</a></li>
+                                <li><a href="story.html">People</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-bottom">
+                <p>2021 - Copyright ZHB Studio</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="lib/wow.min.js"></script>    
+    <script>
+        const wow = new WOW({
+      boxClass: 'wow', /* класс, который необходим для работы wow.js */
+      animateClass: 'animate__animated', /* класс, который будет автоматически добавляться анимируемым элементам при прокрутке страницы */
+      offset: 30, /* по-умолчанию установлено значение 0, то есть как только при прокрутке страницы, элемент достигает низа окна браузера проигрываться анимация, в данном случае анимация начнется на 30px выше от низа окна браузера */
+      mobile: true, /* если true, то на мобильных тоже будет анимация, если false, то на мобильных анимация отключается */
+      live: true /* если true, то анимация будет работать даже на динамически добавляемых элементах, если false, то только на тех элементах, которые были на странице при ее загрузке */
+    })
+    wow.init(); /* Инициализация плагина с установленными выше свойствами */
+    </script>  
+    <script src="story.js"></script> 
+    
+</body>
+</html>
